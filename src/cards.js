@@ -78,8 +78,8 @@ export const SocialCard = (props)=>{
           </a>
           </span>,</span></pre>
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">codeforces</span>: <span className="cm-string">
-          <a className="sociolink" onClick={stoprop} href="https://codeforces.com/profile/blueedge"
-            target="_blank">"codeforces.com/profile/blueedge"
+          <a className="sociolink" onClick={stoprop} href="https://codeforces.com/profile/"
+            target="_blank">"codeforces.com/profile/Honey"
           </a>
         </span>,</span></pre>
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">gmail</span>: <span className="cm-string">
