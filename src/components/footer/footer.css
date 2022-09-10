@@ -1,0 +1,47 @@
+.footer {
+  color: #fefefe;
+  background: #1b1b1b;
+  position: absolute;
+  width: 100%;
+}
+
+.footCont {
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialinks {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.3em;
+}
+
+.socialinks a {
+  text-decoration: none;
+}
+
+.socialinks span {
+  font-size: 0.8em;
+}
+
+@media only screen and (max-width: 900px) {
+
+  .footCont {
+    flex-direction: column-reverse;
+  }
+
+  .socialinks {
+    width: 100%;
+  }
+
+  .copyrightText {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-top: 5px;
+    border-top: 1px solid rgba(120, 120, 120, 0.7);
+  }
+}

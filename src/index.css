@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  max-width: 100vw;
+  min-height: 100vh;
+  padding: 0;
+  /* overflow: hidden; */
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+  background-color: #fefefe;
+}
+
+body[data-page="home"]::-webkit-scrollbar{
+  background-color: #417eff;
+}
+
+body[data-page="unescape"]::-webkit-scrollbar {
+  background-color: #111111;
+}
+
+body::-webkit-scrollbar-thumb {
+  width: 8px;
+  border-radius: 4px;
+  background-color: rgba(13, 75, 191, 0.82);
+}
+
+a{
+  color: inherit;
+}
+
+#root {
+  position: relative;
+  min-height: 100vh;
+  /* overflow-x: hidden; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+.sociolink:hover{
+  color: #58e4c8;
+}
